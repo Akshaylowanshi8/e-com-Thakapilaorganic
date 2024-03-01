@@ -24,10 +24,9 @@ import { useSelector } from 'react-redux';
    <Link to="home">home</Link>
    <Link to="about">about us<RiArrowDropDownLine /></Link>
    <Link to="product">products<RiArrowDropDownLine /></Link>
-   <Link to="ser">service division<RiArrowDropDownLine /></Link>
+   <Link to="ser">search<RiArrowDropDownLine /></Link>
    <Link to="con">contact us</Link>
    <Link to="shop" id='addtocard'>Shop  <span id='count'>{show.length}</span></Link>
-
    <Link to="done"></Link>
 
   </div>

@@ -29,7 +29,8 @@ proQtyInc:(state,action)=>{
     }
 
 },
-proQtyDec:(state,action)=>{
+proQtyDec:(state,action)=>
+{
     for(var i=0;i<state.cart.length;i++)
     {
         if (state.cart[i].id===action.payload)
@@ -44,9 +45,12 @@ proQtyDec:(state,action)=>{
              }
                
             }
-        }
-
     }
+
+},
+Cartimpt:(state )=>
+{state.cart=state.cart=[]; 
+},
 
 },
 
@@ -55,5 +59,5 @@ proQtyDec:(state,action)=>{
 
 )
 
-export const{addData,CartRemove,proQtyInc,proQtyDec}=productSlice.actions;
+export const{addData,CartRemove,proQtyInc,proQtyDec,Cartimpt}=productSlice.actions;
 export default productSlice.reducer;

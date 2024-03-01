@@ -21,28 +21,43 @@ const ProductData=[
     rating:"4.9",
     id:6
     },
-    {   image:"https://c.ndtvimg.com/2023-04/cgm7s43_curd_625x300_05_April_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+    {   image:"https://images.slurrp.com/prodarticles/ovhlev84b5r.webp",
+    name:"Paneer",
+    power:"This is perhaps the easiest way to have raw paneer. Cut some cubes as per the thickness you prefe",
+    price:"399",
+    rating:"4.7",
+    id:61
+    },
+
+    { image:"https://c.ndtvimg.com/2023-04/cgm7s43_curd_625x300_05_April_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
     name:"Popular desi Dahi by the kapila organic",
     power:"the kapila organic Farm Fresh Curd - No Preservatives, 2x1 kg Multipack",
     price:"100",
     rating:"3.2",
     id:8
     },
-    {   image:"https://himalayancreamery.com/wp-content/uploads/2020/01/WhiteButter.jpg",
+    { image:"https://i2.wp.com/boostuplife.com/wp-content/uploads/2016/04/fermented-rice-benefits-e1533374786965.jpg?resize=800%2C445",
+    name:"Mattha",
+    power:"Mattha (Bengali: মাঠা, romanized: Māṭhā, Hindi: मट्ठा, romanized: Maṭṭhā) is a beverage that originates from the Indian subcontinent",
+    price:"29",
+    rating:"3.5",
+    id:41
+    },
+    { image:"https://himalayancreamery.com/wp-content/uploads/2020/01/WhiteButter.jpg",
     name:"desi makkhan(white butter)",
     power:"Makkhan is a traditional cultured fat rich milk product of Indian subcontinent (India and Pakistan).",
     price:"799",
     rating:"4.5",
     id:9
     },
-    {   image:"https://4.imimg.com/data4/RM/HL/MY-14608670/pure-ghee.jpg",
+    {image:"https://4.imimg.com/data4/RM/HL/MY-14608670/pure-ghee.jpg",
     name:"Pure desi Ghee",
     power:"Matching up with the ever increasing requirements of the customers, our company is engaged in providing Pure Ghee.",
     price:"900",
     rating:"5",
     id:10
     },
-    {   image:"https://th.bing.com/th?id=OPAC.Lvnt2SQ1%2fDXH%2fA474C474&w=592&h=550&o=5&pid=21.1",
+    { image:"https://th.bing.com/th?id=OPAC.Lvnt2SQ1%2fDXH%2fA474C474&w=592&h=550&o=5&pid=21.1",
     name:"Desi Cow Gomutra 100% Gomutra Ark 100% Pure",
     power:"Desi cow urine Gomutra ark Cow Urine for spiritual and pooja path purpose only Natural and Organic Cow Urine Gomutra help in proper liver functioning making it healthy. Gomutra also used in pooja path its alternative of ganga jal 100% Pure and natural distilled cow urine",
     price:"220",
@@ -69,16 +84,18 @@ price:"30",
 rating:"4.6",
 id:3
 },
-    {   image:"https://m.media-amazon.com/images/I/31ctU7KO-eL._AC_UL320_.jpg",
+{   image:"https://m.media-amazon.com/images/I/31ctU7KO-eL._AC_UL320_.jpg",
     name:"Organic Fertilizer Organic Cow Dung And Compost",
     power:"Homemade Organic Fertilizer Organic Cow Dung And Compost, 10Kg, Granules",
     price:"199",
     rating:"3.5",
     id:4
-    }
+}
 
 
 
+
+    
     ]
 
     export default ProductData;

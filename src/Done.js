@@ -1,17 +1,30 @@
 import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { Cartimpt } from './ProductSlice';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Done=()=>{
+    const mynavigate=useNavigate();
+ 
+const paymentdone=()=>{
+mynavigate("../home")
+}
 
-    const [content ,setcontent]=useState(true)
+
+
+    const dishpa=useDispatch();
+     const [content ,setcontent]=useState(true)
         useEffect(()=>{
+             
             setTimeout(()=>{
-          setcontent(false)
+          setcontent(false);
+          dishpa(Cartimpt());
           
-            },3000)
-              
-          },[])
+            },3000)},[])
     
+     
     return(
         <>
         <div className="donepage">
@@ -26,7 +39,10 @@ const Done=()=>{
     ):( 
      <h1 className="h">
         Thanks for purchasing our product  we will provide your product within 5 to 7 working day   
+
+        <br/><button className=" " onClick={paymentdone} >shop Again</button>
        </h1> 
+       
     ) }
     </div>
     </>

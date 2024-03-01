@@ -1,18 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-export default function UPI() {
+export default function COD() {
 
 const mynavigate=useNavigate();
 
 const paymentdone=()=>{
 mynavigate("../done")
 }
+
 return (
      <>
     <div className="paymentbycard">
-    <img className="coming" src="..\images\Upi.webp" />
-    <label>Enter upi id  <input className="" /></label>
-
+   <img className="" width="400px" height="300px" src="..\images\cod.jpg" />
     <button onClick={paymentdone} className="cpbtn">Make Payment</button>
     </div></>
      );

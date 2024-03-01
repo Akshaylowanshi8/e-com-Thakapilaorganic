@@ -8,11 +8,7 @@ import { RiArrowDropRightLine } from "react-icons/ri";
 import {  useDispatch, useSelector } from "react-redux";
 import { addData } from "./ProductSlice";
 import {useRef} from 'react';
-
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -54,7 +50,9 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
                 </>)
             })
             
-            return (
+
+
+  return (
     <>
       <Swiper
         spaceBetween={30}

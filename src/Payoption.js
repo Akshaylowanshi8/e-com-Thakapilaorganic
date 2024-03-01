@@ -1,7 +1,8 @@
 import { useState } from "react";
 import PaymentInputs from "./paymehod/CardPaymint"
 import Upi from './paymehod/UPI';
-import { Link } from 'react-router-dom';
+import COD from "./paymehod/Cod";
+
 
 const Payoption=()=>{
  var  myans="";
@@ -19,6 +20,12 @@ switch(pmethod)
   case "upi":
   myans=<Upi/>
   break;
+  case "cod":
+    myans= <COD/>
+    break;
+    case "upi":
+    myans=<Upi/>
+    break;
 }
 
    return(<>
@@ -79,11 +86,7 @@ switch(pmethod)
       <input type="radio" name="payment_method" value="card" onClick={mypay}  />
       Credit Card
     </label>
-    <label>
-      <input type="radio" name="payment_method" value="wallet" onClick={mypay}  />
-      Wallet
-    </label>
-    <label>
+     <label>
       <input type="radio" name="payment_method" value="upi" onClick={mypay}  />
       UPI
     </label>
@@ -91,12 +94,12 @@ switch(pmethod)
       <input type="radio" name="payment_method" value="netbanking" onClick={mypay} />
       Netbanking
     </label>
-    {/* <button >Proceed to Payment</button> */}
-  </form>
+    </form>
 
 </div> 
-<div className="">{myans}</div> 
+
 </div>
+<div className="">{myans}</div> 
 </p>
 
 

@@ -4,11 +4,11 @@ import Layout from './Layout';
 import Home from './Home';
 import About from './About';
 import Product from './Product';
-import Service from './Service';
 import Contact from './Contact';
 import Shop from './Shop';
 import Buyknow from './Buyknow';
 import Done from './Done';
+import Search from './Search.js';
 function App() {
   return (
      <>
@@ -20,7 +20,7 @@ function App() {
     <Route path='about' element={<About/>}/>
     <Route path='home' element={<Home/>}/>
     <Route path='product' element={<Product/>}/>
-    <Route path='ser' element={<Service/>}/>
+    <Route path='ser' element={<Search/>}/>
     <Route path='con' element={<Contact/>}/>
     <Route path="shop" element={<Shop/>}/>
     <Route path='buyknow' element={<Buyknow/>}/>
