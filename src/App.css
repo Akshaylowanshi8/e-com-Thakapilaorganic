@@ -1,13 +1,9 @@
-
-
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background: #000; */
- 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 li{
   list-style: none;
@@ -316,7 +312,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #30e810;
 }
 /* ////////////////////////////////////////////// */
 
@@ -496,7 +492,59 @@ body{
     }
 
 }
+/* .............................................................. */
 .produccard p {
   padding: 0px;
   font-size: 14px;
+}
+#Banks{
+  font-size: 24px;
+}
+
+/* ..............Footer............................ */
+footer{
+  padding-top: 20px;
+  height: 600px;
+  color: #ffffff;
+  background-color: rgb(71, 71, 70);
+  width: 100vw;
+  display: flex;
+  justify-content:space-between;
+  gap: 10px;
+}
+#ful{
+  display: flex;
+}
+#ful input{
+  padding: 2px 10px;
+  font-size: x-large;
+}
+#ful ul li{
+  font-size: 20px;
+  margin: 10px;
+
+}
+#h5{
+  width: 30%;
+}
+#h5 p{
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+span{
+  font-weight: 900;
+}
+#mob{
+  font-size: 50px;
+  color: rgb(244, 255, 84);
+}
+hr{
+margin: 40px 0px;
+}
+#log{
+  display: flex;
+  gap: 20px;
+  font-size: 40px;
+
 }

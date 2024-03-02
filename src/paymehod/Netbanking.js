@@ -1,8 +1,6 @@
 import React from 'react';
-import { PaymentInputsWrapper, usePaymentInputs } from 'react-payment-inputs';
-import images from 'react-payment-inputs/images';
 import { useNavigate } from 'react-router-dom';
-export default function COD() {
+export default function NetB() {
 
 const mynavigate=useNavigate();
 
@@ -13,9 +11,19 @@ mynavigate("../done")
 return (
      <>
     <div className="paymentbycard">
-    <label className="">
-    Name  : <input className="payname" required="true" placeholder='Cardholder Name'/></label> <br/>
-  
+    <label for="cars">select your bank :
+
+<select id="Banks">
+  <option value="HDFC Bank">HDFC Bank</option>
+  <option value="State Bank of India (SBI)">State Bank of India (SBI)</option>
+  <option value="ICICI Bank">ICICI Bank</option>
+  <option value="Axis Bank">Axis Bank</option>
+  <option value="State Ban">Kotak Mahindra Bank</option>
+  <option value="IndusInd Bank">IndusInd Bank</option>
+  <option value="Yes Bank">Yes Bank</option>
+</select></label>
     <button onClick={paymentdone} className="cpbtn">Make Payment</button>
     </div></>
      );
+
+}

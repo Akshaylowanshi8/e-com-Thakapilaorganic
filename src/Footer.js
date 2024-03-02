@@ -1,61 +1,85 @@
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaSquareTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer=()=>{
 
     return(
 <> 
-<div className="Footer">
-<ul className="F">
-
-
-
-
-
-<li> CONTACT US</li>
-Bharat Bhavan A,1360,<br/> Shukrawar Peth, Natu
- Baug, Shukrawar Peth, Pune, Maharashtra – 411002
-
-
-
-020-24473038
- +91-9922417225
- sales@indianelectric.com
- www.indianelectric.com
-FOLLOW US ON
-     </ul>
-
-
-<ul className="">
-
- <li> QUICKLINKS</li>
- <li>ABOUT US</li>
-<li>OUR STRENGTHS</li>
-<li>CHANNEL PARTNERS  </li>
-<li>SERVICE DIVISION </li>
-<li>CAREERS </li>
- <li>CONTACT US</li>
-</ul>
-
-<ul className="">
-<li> PRODUCTS</li>
-<li>IE4 / IE3 / IE2 MOTORS </li>
-<li>CRANE & HOIST DUTY MOTORS </li>
-<li>BRAKE MOTORS</li>
- <li>FLAME PROOF MOTORS</li>
-<li>CONVERTER DUTY MOTORS</li>
-<li>SPARE PARTS</li>
-</ul>
-<ul className="">
-<li>3 Phase Electric Motor Dealer
-ISO 9001:2015 Certified</li> 
-
-GST No. 27AAAFT6955B1Z7
-
-Add Review On:
-Google-Review JustDial Electric Motor Dealer Electric Motor Dealer
-</ul>
-</div>
+<>
+  <footer id="foot">
+    <div id="h5">
+      <p>
+        <span> ADDRESS:</span>
+        Building No. 301, Ground Floor, Opposite Terminal-3,  Airport,bhopal,
+        462046
+      </p>
+      <p>
+        <span>EMAIL:</span>
+        support@akshaylovanshi8@gmail.co.in
+        <span>CUSTOMER SUPPORT WORKING DAYS / HOURS:</span>
+        Mon - Fri / 9:00 - 18:00 (We are closed on public holidays)
+      </p>
+      <p id="mob"> (+91) 8100000888</p>
+      <p />
+      <ul id="log">
+        <li>
+          <FaInstagram/>
+        </li>
+        <li>
+          <FaSquareTwitter/>
+        </li>
+        <li>
+          <FaYoutube/>
+        </li>
+        <li>
+          <FaLinkedin/>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div id="ful">
+        <p>
+          <span>SUBSCRIBE US </span>
+          <br />
+          Get all the information on Offers. Sign up for the newsletter.
+        </p>
+        <input type="text" placeholder="Enter your email" />
+      </div>
+      <hr />
+      <br />
+      <div id="ful">
+        <ul>
+          <li>CATEGORIES</li>
+          <li>Liquor</li>
+          <li>Makeup &amp; Skin Care </li>
+          <li>Perfumes</li>
+          <li>Combo Offers </li>
+          <li>Travel Retail Exclusives</li>
+        </ul>
+        <ul>
+          <li>QUICK LINKS</li>
+          <li> Shop &amp; Collect</li>
+          <li>Duty-Free Allowance</li>
+          <li> About Us</li>
+          <li>Press Release</li>
+          <li>Corporate Policies</li>
+        </ul>
+        <ul>
+          <li>CUSTOMER SERVICE</li>
+          <li> Help &amp; FAQs</li>
+          <li>Cancellation &amp; Refunds</li>
+          <li>Privacy Policy</li>
+          <li> Careers</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</>
 <div className="Footerbottm">
-© 2022 Indian Electric Co. All Rights Reserved. Website Designed & Developed by Web Biz  <br/>
+© Akshaylowanshi. All Rights Reserved. Website Designed & Developed by Web Biz  <br/>
 
 Privacy Policy | Terms & Conditions | FAQ</div>
 </>
