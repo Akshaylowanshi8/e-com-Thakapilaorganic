@@ -114,14 +114,6 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 
 </div>
 
-
-
-
-
-{/* ==================================================================================== */}
-
-<video  src="..\images\aboutVideo.mp4"  className='videoTag' autoPlay loop muted>
-</video>
 <Footer/>
  </> );
 }

@@ -2,6 +2,7 @@ import { useState } from "react";
 import PaymentInputs from "./paymehod/CardPaymint"
 import Upi from './paymehod/UPI';
 import COD from "./paymehod/Cod";
+import NetB from "./paymehod/Netbanking";
 
 
 const Payoption=()=>{
@@ -23,10 +24,10 @@ switch(pmethod)
   case "cod":
     myans= <COD/>
     break;
-    case "upi":
-    myans=<Upi/>
+    case "netbanking":
+    myans=<NetB/>
     break;
-}
+};
 
    return(<>
 <p className="fflex">
