@@ -59,7 +59,7 @@ const ProductData=[
     },
     { image:"https://th.bing.com/th?id=OPAC.Lvnt2SQ1%2fDXH%2fA474C474&w=592&h=550&o=5&pid=21.1",
     name:"Desi Cow Gomutra 100% Gomutra Ark 100% Pure",
-    power:"Desi cow urine Gomutra ark Cow Urine for spiritual and pooja path purpose only Natural and Organic Cow Urine Gomutra help in proper liver functioning making it healthy. Gomutra also used in pooja path its alternative of ganga jal 100% Pure and natural distilled cow urine",
+    power:"Desi cow urine Gomutra ark pooja path purpose only Natural and Organic Gomutra help in proper liver functioning making it healthy.",
     price:"220",
     rating:"4.2+",
     id:11
@@ -70,10 +70,10 @@ const ProductData=[
     price:"20",
     rating:"4.2+",
     id:12
-    },   {   image:"https://images.meesho.com/images/products/122562158/dfbo5_512.webp",
+    },  
+     { image:"https://images.meesho.com/images/products/122562158/dfbo5_512.webp",
     name:"ECO FRIENDLY GOBAR GANESH",
-    power:"MURTI Ganesh Idol",
-    price:"1299",
+    power:"MURTI Ganesh Idol its hand made  eco firendly",
     rating:"4",
     id:2
 },
@@ -98,4 +98,4 @@ id:3
     
     ]
 
-    export default ProductData;
+    export default ProductData; 

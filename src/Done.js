@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const Done=()=>{
     const mynavigate=useNavigate();
  
@@ -31,13 +32,13 @@ mynavigate("../home")
        {content?(
         <div className="">
     
-            <h1 className="">your payment is being processing... </h1>
+            <h1  className="">your payment is being processing... </h1>
         </div>
     
     
     
     ):( 
-     <h1 className="h">
+     <h1  className="h">
         Thanks for purchasing our product  we will provide your product within 5 to 7 working day   
 
         <br/><button className=" " onClick={paymentdone} >shop Again</button>

@@ -43,7 +43,7 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
             <h3>{key.name}</h3><p id="detail">Detail : {key.power}</p>
             <div id="rating">
             <p> Rating : {key.rating} <MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarOutline/><MdOutlineStarOutline/></p>
-            <p>Price :  {key.price}</p> </div>            
+            <p>Price :  ₹{key.price}</p> </div>            
             <button className="" onClick={()=>{dataAdd(key.id,key.name,key.price,key.image,key.power,key.rating)}} >Add To Card</button>
             </div>
             </div>
@@ -84,11 +84,11 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
 
     
     {/* ======================================================================== */}
-<div className="con1">
-   <div className="con11">
+<div  className="con1">
+   <div  className="con11">
     <p>
  
-   <h1> TURNING BIG IDEAS INTO GREAT PRODUCT</h1>
+   <h1 > TURNING BIG IDEAS INTO GREAT PRODUCT</h1>
    <p>
 We work at the forefront of innovation and technology to take products from an idea all the way to the end consumer.</p>
 <p>

@@ -17,10 +17,10 @@ const Product=()=>{
             <div className="produccard">
             <div>
             <img height="190px" width="200px" alt="coming" src={key.image} />
-                <h3>{key.name}</h3><p>KW / HP  : {key.power}</p>
+                <h3>{key.name}</h3><p>Ditail   : {key.power}</p>
                 <div id="rating">
                 <p> Rating : {key.rating} <MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarOutline/><MdOutlineStarOutline/></p>
-                <p>Price :  {key.price}</p> </div>            
+                <p>Price :₹ {key.price}</p> </div>            
                 <button className="" onClick={()=>{dataAdd(key.id,key.name,key.price,key.image,key.power,key.rating)}} >Add To Card</button>
                 </div>
                 </div>

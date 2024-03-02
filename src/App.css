@@ -142,17 +142,12 @@ margin: 20px;
 box-shadow: #000 0px 0px 5px 0px ;
 border-radius:2px;
 }
-
-
-
-
 .allcard{
 display: grid;
 grid-template-columns:auto auto auto;
 justify-content: space-evenly;
 
 }
-
 .produccard{
 display: flex;
 flex-direction: column;
@@ -160,24 +155,27 @@ font-size: 11px;
 justify-content: center;
 align-items: center;
 text-align: center;
-height: 400px;
+height: 410px;
 background-color: #fff;
 box-shadow: #000 1px 1px 5px 1px ;
-width: 300px;
+width: 310px;
 padding: 20px;
 margin: 20px;
 border-radius: 4px;
 }
 .produccard button{
-padding: 9px;
+padding: 9px 20px;
 border-radius: 5px;
-font-size: 18px;
-font-weight: 500;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 700;
+color: #fff;
+margin-top: 5px;
+/* font-family: Arial, Helvetica, sans-serif; */
 }
 #rating{
 justify-content: space-between;
 display: flex;
+font-weight: 600;
 }
 .cont{
 display: flex;
@@ -497,4 +495,8 @@ body{
       display: none;
     }
 
+}
+.produccard p {
+  padding: 0px;
+  font-size: 14px;
 }
