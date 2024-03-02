@@ -113,7 +113,6 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 <div className="allcard">{ans}</div>
 
 </div>
-
 <Footer/>
  </> );
 }
