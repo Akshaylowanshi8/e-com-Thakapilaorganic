@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const About=()=>{
 
  return(<>
-<div className="con1">
+<div data-aos="flip-up" className="con1">
    <div className="con11">
     <p>
  

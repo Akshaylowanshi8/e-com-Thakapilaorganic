@@ -8,7 +8,7 @@ const Footer=()=>{
     return(
 <> 
 <>
-  <footer id="foot">
+  <footer  data-aos="fade-up" id="foot">
     <div id="h5">
       <p>
         <span> ADDRESS:</span>
