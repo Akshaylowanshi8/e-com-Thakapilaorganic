@@ -505,18 +505,22 @@ body{
 footer{
   padding-top: 20px;
   height: 600px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ffffff;
-  background-color: rgb(71, 71, 70);
-  width: 100vw;
+  background-color:#000000;
+  width: 100%;
   display: flex;
   justify-content:space-between;
-  gap: 10px;
+  gap: 9px;
+
 }
 #ful{
   display: flex;
 }
 #ful input{
+  margin-left: 20px;
   padding: 2px 10px;
+  border-radius: 7px;
   font-size: x-large;
 }
 #ful ul li{
@@ -537,7 +541,7 @@ span{
 }
 #mob{
   font-size: 50px;
-  color: rgb(244, 255, 84);
+  color: rgb(235, 252, 6);
 }
 hr{
 margin: 40px 0px;
@@ -546,5 +550,13 @@ margin: 40px 0px;
   display: flex;
   gap: 20px;
   font-size: 40px;
+
+}
+.procategry{
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  font-size: 30px;
 
 }

@@ -16,7 +16,7 @@ const Product=()=>{
         return(<>
             <div className="produccard">
             <div>
-            <img height="190px" width="200px" alt="coming" src={key.image} />
+            <img data-aos="zoom-in" height="190px" width="200px" alt="coming" src={key.image} />
                 <h3>{key.name}</h3><p>Ditail   : {key.power}</p>
                 <div id="rating">
                 <p> Rating : {key.rating} <MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarOutline/><MdOutlineStarOutline/></p>
@@ -34,7 +34,21 @@ const Product=()=>{
 
 
     return(<>
-<div className="allcard">
+<div className="procategry">
+<div data-aos="fade-right" className="">
+   All 
+</div>
+<div className="">
+   Food 
+</div>
+<div className="">
+    LifeNeed
+</div>
+ 
+</div>
+
+    
+<div data-aos="fade-left" className="allcard">
 {ans}
 </div>
 <Footer/>

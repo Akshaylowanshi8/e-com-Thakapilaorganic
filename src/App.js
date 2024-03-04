@@ -9,7 +9,13 @@ import Shop from './Shop';
 import Buyknow from './Buyknow';
 import Done from './Done';
 import Search from './Search.js';
+import Aos from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+ })
   return (
      <>
      <BrowserRouter>

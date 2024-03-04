@@ -38,8 +38,8 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
     <>
 
     <div className="produccard">
-        <div>
-        <img height="190px" width="200px" alt="coming" src={key.image} />
+        <div data-aos="fade-down-left" data-aos-duration="1000">
+        <img data-aos="zoom-in" height="190px" width="200px" alt="coming" src={key.image} />
             <h3>{key.name}</h3><p id="detail">Detail : {key.power}</p>
             <div id="rating">
             <p> Rating : {key.rating} <MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarPurple500/><MdOutlineStarOutline/><MdOutlineStarOutline/></p>
@@ -54,7 +54,7 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
 
   return (
     <>
-      <Swiper
+      <Swiper 
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -74,7 +74,7 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
         <SwiperSlide> <img className=""  alt="coming"  height="400px" width="100%" src="..\images\slider3.jpg" /></SwiperSlide>
         <SwiperSlide> <img className=""  alt="coming"  height="400px" width="100%" src="..\images\slider4.jpg" /></SwiperSlide>
 
-        <div className="autoplay-progress" slot="container-end">
+        <div  data-aos="zoom-in" className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>
           </svg>
@@ -84,8 +84,8 @@ const dataAdd=(id,name,price,image,power,rating,)=>{
 
     
     {/* ======================================================================== */}
-<div  className="con1">
-   <div  className="con11">
+<div  data-aos="zoom-in"className="con1">
+   <div  data-aos="fade-up-left"  className="con11">
     <p>
  
    <h1 > TURNING BIG IDEAS INTO GREAT PRODUCT</h1>
@@ -106,11 +106,11 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 </div>
 <div className="range">
 <div className="productrange">
-<h2> MOST LOVED LEGENDS 
+<h2  data-aos="fade-down-left"> MOST LOVED LEGENDS 
 </h2>
 <img className=""  alt="coming"  src="https://www.indianelectric.com/images/title-icon-white.webp" />
 </div>
-<div className="allcard">{ans}</div>
+<div data-aos="fade-right" className="allcard">{ans}</div>
 
 </div>
 <Footer/>
