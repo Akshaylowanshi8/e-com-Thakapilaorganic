@@ -29,6 +29,7 @@ switch(pmethod)
     break;
 };
 
+
    return(<>
 <p className="fflex">
 
@@ -107,9 +108,3 @@ switch(pmethod)
     </>)
 }
 export default Payoption;
-
-
-
-
-
-
