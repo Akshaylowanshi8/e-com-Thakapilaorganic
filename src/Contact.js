@@ -3,8 +3,8 @@ const Contact=()=>{
 
     return(
         <>
-       <div className="container1">
-  <div className="text">Contact us</div>
+       <div data-aos="fade-right"  className="container1">
+  <div className="cts">Contact us</div>
   <form >
     <div className="form-row">
       <div className="input-data">

@@ -1,5 +1,6 @@
 body{
   margin: 0;
+ background-color:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -19,7 +20,7 @@ padding: 5px;
   background-color: #e7f8fd;
   justify-content: space-evenly;
   align-items: center;
-  height: 90px;
+  height: 80px;
   width: 100%;
   z-index: 100;
 position: sticky;
@@ -445,7 +446,7 @@ padding: 30px;
 }
 
 
-@media (max-width: 700px) {
+@media (max-width:576px) {
 
 body{
   overflow-x: hidden;
@@ -504,21 +505,24 @@ body{
 /* ..............Footer............................ */
 footer{
   padding-top: 20px;
-  height: 600px;
+  height: 500px;
+  margin: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffffff;
-  background-color:#000000;
+  color: #000;
+  background-color:tan;
   width: 100%;
   display: flex;
-  justify-content:space-between;
-  gap: 9px;
-
+  justify-content:space-around;
+  /* font-family: "Madimi One", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 #ful{
   display: flex;
 }
 #ful input{
-  margin-left: 20px;
+  margin-left: 15px;
   padding: 2px 10px;
   border-radius: 7px;
   font-size: x-large;
@@ -537,11 +541,11 @@ footer{
   font-size: 20px;
 }
 span{
-  font-weight: 900;
+  font-weight: 600;
 }
 #mob{
   font-size: 50px;
-  color: rgb(235, 252, 6);
+  color: rgb(31, 6, 252);
 }
 hr{
 margin: 40px 0px;
@@ -558,8 +562,62 @@ margin: 40px 0px;
   height: 60px;
   align-items: center;
   font-size: 30px;
+  
 
 }
 .center{
   text-align: center;
+}
+
+.cts{
+  text-align: center;
+  padding: 20px;
+  font-weight: 800;
+  background-color: #1240fb;
+}
+.bulk{
+background-color:#FBD880;
+  display: flex;
+  /* width: 100%; */
+  padding: 60px 100px;
+}
+.bulk2{
+  width: 500px;
+  padding: 30px;
+}
+.abcover{
+  height: 450px;
+  background-image: url("../public/images/about-us-cover.png");
+ padding-top: 30px;
+background-repeat: no-repeat;
+border-collapse: collapse;
+background-position: left;
+}
+.abcon{
+  color: #626262;
+  margin: 40px;
+  padding: 60px;
+  width: 40%;
+
+}
+.abcon h1{
+  color: #191919;
+}
+.prohead{
+  display: flex;
+  height: 450px;
+  padding: 30px;
+  background:linear-gradient(135deg,rgb(251,189,128) 0%,rgb(236, 206, 176) 100%);
+  
+}
+.prohead h3 ,.fh{
+  text-align: center;
+  padding: 10px;
+  
+}
+.founder{
+  text-align: center;
+}
+.founimg{
+  border-radius: 50% 60%;
 }
