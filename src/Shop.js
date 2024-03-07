@@ -51,7 +51,7 @@ return (
             <td >Image</td>
             <td >Product Name</td>
             <td>Product rating</td>
-            <td>power</td>  
+            <td>Detail</td>  
             <td>Product Price</td>
             <td>Quantity</td>
             <td>total Amount </td>

@@ -84,6 +84,7 @@ const ProductData=[
      { image:"https://images.meesho.com/images/products/122562158/dfbo5_512.webp",
     name:"ECO FRIENDLY GOBAR GANESH",
     power:"MURTI Ganesh Idol its hand made  eco firendly",
+    price:"1130",
     rating:"4",
     id:2,
     type:"LifeNeed"

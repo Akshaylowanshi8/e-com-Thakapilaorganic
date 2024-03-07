@@ -112,20 +112,15 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 <img className=""  alt="coming"  src="https://www.indianelectric.com/images/title-icon-white.webp" />
 </div>
 <div data-aos="fade-right" className="allcard">{ans}</div>
-
 </div>
-
 <div  data-aos="fade-up-left"  className="bulk">
   <div className=""><img className="" src="..\images\Bulk-Order.png" /> </div>
   <div className="bulk2">
 <h1 className="">Bulk Orders</h1>
 <p>We take bulk orders of our products too, for all your occasions like Birthday Parties, Marriages, Corporate Events, or any gatherings. Please contact us at the kapilaorganic.com</p>
- 
-<button className="buttonmore"><Link to="/con">Order New<RiArrowDropRightLine /></Link></button> 
- 
-  </div>
+ <button className="buttonmore"><Link to="/con">Order New<RiArrowDropRightLine /></Link></button> 
+ </div>
 </div>
-
 <Footer/>
  </> );
 }
