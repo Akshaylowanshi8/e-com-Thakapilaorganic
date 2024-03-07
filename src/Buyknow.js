@@ -7,8 +7,6 @@ return(<>
 <div className="">
 <Payoption/>
     </div>
-    
-    
     </>)
 
 }

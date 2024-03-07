@@ -17,7 +17,7 @@ import LifeNeed from './products/LifeNeed.js';
 import Allproduct from './products/Allprodutc.js';
 function App() {
   useEffect(()=>{
-    Aos.init({duration:3000})
+    Aos.init({duration:2000})
  })
   return (
      <>

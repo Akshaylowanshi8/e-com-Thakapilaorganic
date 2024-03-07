@@ -1,11 +1,20 @@
 import Footer from "./Footer";
-
-
-
+import { images } from 'react-payment-inputs/images';
 const About=()=>{
 
  return(<>
-<div data-aos="flip-up" className="con1">
+
+ <div className="abcover">
+ <div className="abcon">
+ <h1 className="" data-aos="fade-right">About us</h1>
+<p>The kapila organic Farm was founded in 2013 with a passion to provide every family with healthy and natural dairy products that are free from antibiotics, hormones, preservatives and other harmful adulterants.</p>
+ 
+ </div>
+
+ </div>
+
+{/* ........................................................... */}
+<div data-aos="fade-left" className="con1">
    <div className="con11">
     <p>
  
@@ -26,7 +35,7 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 
 </div>
 {/* ......................................................... */}
-<div className="con1">
+<div data-aos="fade-right"  className="con1">
 <img className="" width="450px" height="400px" style={{borderRadius:"70% 50%"}} alt="comeing" src="..\images\cow2.webp" />
 
    <div className="con11">
@@ -36,6 +45,25 @@ Every time any of us drink their milk, our physical bodies and it's cells intern
  </p>
    </div> 
 </div>
+{/* ........................founder.............................. */}
+<h2 className="fh" data-aos="zoom-out" > OUR FOUNDER</h2>
+
+<div className="prohead">
+    <div  data-aos="fade-left"className="abcon">
+ <h1 className="">Our story</h1>
+<p>We have a vision of setting a new benchmark in the milk industry with superior quality dairy products, a sustainable ecosystem and a thriving relation with our farmers.</p>
+ </div>
+ <h3><img data-aos="fade-right" className="founimg" height="400px" src="..\images\founder.JPG" /><br/>
+        Mr.Kapil Kumar Lowanshi</h3> 
+</div>
+
+
+
+
+  
+
+
+
 <Footer/>
  </>)   
 

@@ -60,11 +60,11 @@ return (
           {ans}
           </table>
           <hr size="2" color='red'/>
-       <div className='netAmount'>Total Amount :{netAmount}
+       <div   className='netAmount'>Total Amount :{netAmount}
          </div> 
       
 
-        <div className="buy"><Link to="/buyknow">Buy Know</Link></div>
+        <div  className="buy"><Link to="/buyknow">Buy Know</Link></div>
       
     </>
   )

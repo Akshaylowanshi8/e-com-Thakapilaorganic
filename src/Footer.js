@@ -17,12 +17,11 @@ const Footer=()=>{
       </p>
       <p>
         <span>EMAIL:</span>
-        support@akshaylovanshi8@gmail.co.in
+        support@akshaylovanshi8@gmail.co.in <br/>
         <span>CUSTOMER SUPPORT WORKING DAYS / HOURS:</span>
         Mon - Fri / 9:00 - 18:00 (We are closed on public holidays)
       </p>
-      <p id="mob"> (+91) 8100000888</p>
-      <p />
+      <p id="mob"> (+91) 9981904304</p>
       <ul id="log">
         <li>
           <FaInstagram/>
@@ -37,6 +36,8 @@ const Footer=()=>{
           <FaLinkedin/>
         </li>
       </ul>
+      <p />
+      
     </div>
     <div>
       <div id="ful">
@@ -52,16 +53,13 @@ const Footer=()=>{
       <div id="ful">
         <ul>
           <li>CATEGORIES</li>
-          <li>Liquor</li>
-          <li>Makeup &amp; Skin Care </li>
-          <li>Perfumes</li>
-          <li>Combo Offers </li>
-          <li>Travel Retail Exclusives</li>
+          <li>Food</li>
+          <li>Life Need</li>
+          
         </ul>
         <ul>
           <li>QUICK LINKS</li>
           <li> Shop &amp; Collect</li>
-          <li>Duty-Free Allowance</li>
           <li> About Us</li>
           <li>Press Release</li>
           <li>Corporate Policies</li>
