@@ -28,7 +28,6 @@ import { useSelector } from 'react-redux';
    <Link to="con">contact us</Link>
    <Link to="shop" id='addtocard'>Shop  <span id='count'>{show.length}</span></Link>
    <Link to="done"></Link>
-
   </div>
   </div>
 
