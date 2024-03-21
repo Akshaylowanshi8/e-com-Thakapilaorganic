@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+import Footer from "../src/Footer";
 import { images } from 'react-payment-inputs/images';
 const About=()=>{
 

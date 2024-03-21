@@ -1,7 +1,12 @@
 import Footer from "./Footer";
+import { useEffect } from "react";
 import { Link, Outlet } from 'react-router-dom';
+import { RiArrowDropRightLine } from "react-icons/ri";
+
 const Product=()=>{
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     return(<>
     <div  className="prohead">
     <div className="abcon">
@@ -24,6 +29,19 @@ const Product=()=>{
 </div>
 <div data-aos="fade-left" className="allcard">
 <Outlet/>
+</div>
+
+
+
+<div  data-aos="fade-up-left"  className="bulk">
+  <div className=""><img className="" src="..\images\Bulk-Order.png" /> </div>
+  <div className="bulk2">
+<h1 className="">Bulk Orders</h1>
+<p>We take bulk orders of our products too, for all your occasions like Birthday Parties, Marriages, Corporate Events, or any gatherings. Please contact us at the kapilaorganic.com</p>
+ <button className="buttonmore"><Link to="/con">Order New<RiArrowDropRightLine /></Link></button> 
+ </div>
+
+
 </div>
 <Footer/>
     </>)

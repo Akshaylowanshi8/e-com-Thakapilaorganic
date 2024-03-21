@@ -6,7 +6,15 @@ import ProductData from "./ProductData";
 import {  useDispatch, useSelector } from "react-redux";
 import { addData } from "./ProductSlice";
 import { useState } from "react";
+import { RiArrowDropRightLine } from "react-icons/ri";
+
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const Search=()=>{
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   var myStatus =false; 
 const [myproduct,setmyproduct]=useState("")
   console.log(myproduct)
@@ -57,6 +65,18 @@ const [myproduct,setmyproduct]=useState("")
 {ans}
 </div> 
 {myStatus?"":<h1>data not found!!</h1>}
+
+
+<div  data-aos="fade-up-left"  className="bulk">
+  <div className=""><img className="" src="..\images\Bulk-Order.png" /> </div>
+  <div className="bulk2">
+<h1 className="">Bulk Orders</h1>
+<p>We take bulk orders of our products too, for all your occasions like Birthday Parties, Marriages, Corporate Events, or any gatherings. Please contact us at the kapilaorganic.com</p>
+ <button className="buttonmore"><Link to="/con">Order New<RiArrowDropRightLine /></Link></button> 
+ </div>
+
+
+</div>
 <Footer/>
     </>)
 }

@@ -9,6 +9,7 @@ import {  useDispatch, useSelector } from "react-redux";
 import { addData } from "./ProductSlice";
 import {useRef} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useEffect } from "react";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,6 +18,10 @@ import './styles.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { images } from 'react-payment-inputs/images';
 const Home=()=> {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
@@ -120,8 +125,11 @@ We have Pure breed Native Gir Cows at the farm for their dung and urine - the on
 <p>We take bulk orders of our products too, for all your occasions like Birthday Parties, Marriages, Corporate Events, or any gatherings. Please contact us at the kapilaorganic.com</p>
  <button className="buttonmore"><Link to="/con">Order New<RiArrowDropRightLine /></Link></button> 
  </div>
+
+
 </div>
 <Footer/>
+
  </> );
 }
 

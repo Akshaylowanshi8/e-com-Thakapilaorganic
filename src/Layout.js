@@ -1,10 +1,18 @@
 import { Link, Outlet } from 'react-router-dom';
+
+import ScrollToTop from "react-scroll-to-top";
+import { useEffect } from 'react';
 import { MdEmail } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
 import { useSelector } from 'react-redux';
  const Layout=()=>{
+
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
    const show=useSelector((key)=>key.mycart.cart);
    console.log(show.length);
    
@@ -33,6 +41,9 @@ import { useSelector } from 'react-redux';
 
   
 <Outlet/>
+<div style={{ marginTop: "1px" }} >
+      <ScrollToTop smooth  style={{ marginTop: "100vh", textAlign:"center",justifyContent:"center", backgroundColor:"#2058D1", padding:"3px"}} />
+    </div>
 
 
     </>)

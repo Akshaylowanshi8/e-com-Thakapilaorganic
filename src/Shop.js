@@ -4,9 +4,13 @@ import { CiCircleMinus } from "react-icons/ci"
 import { CiCirclePlus } from "react-icons/ci";
 import { proQtyInc, proQtyDec } from "./ProductSlice";
 import { Link,  } from 'react-router-dom';
+import { useEffect } from "react";
 const Shop = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
-const onclc=()=>{
+  const onclc=()=>{
 if(netAmount===0)
 { window.location.reload();
   alert("please buy sum products")
@@ -71,7 +75,10 @@ return (
           {ans}
           </table>
           <hr size="2" color='red'/>
-       <div   className='netAmount'>Total Amount :{netAmount}
+       <div   className='netAmount'><p>Total Product : {show.length}</p>  Total Amount :{netAmount}
+          
+
+          
          </div> 
       
 
