@@ -5,7 +5,6 @@ import {  useDispatch, useSelector } from "react-redux";
 import { addData } from "../ProductSlice";
 const Food=()=>{
     const show=useSelector((key)=>key.mycart.cart);
-    
     console.log(show);
     const dis=useDispatch();
     const dataAdd=(id,name,price,image,power,rating,)=>{

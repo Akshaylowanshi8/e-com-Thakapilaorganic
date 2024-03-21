@@ -2,20 +2,19 @@ import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Cartimpt } from './ProductSlice';
 import { useNavigate } from 'react-router-dom';
+import { Radio } from 'react-loader-spinner'
 
 
 
 
 const Done=()=>{
-    const mynavigate=useNavigate();
+const mynavigate=useNavigate();
  
 const paymentdone=()=>{
 mynavigate("../home")
 }
 
-
-
-    const dishpa=useDispatch();
+const dishpa=useDispatch();
      const [content ,setcontent]=useState(true)
         useEffect(()=>{
              
@@ -33,8 +32,16 @@ mynavigate("../home")
         <div className="">
     
             <h1  className="">your payment is being processing... </h1>
+            <Radio
+  visible={true}
+  height="80"
+  width="80"
+  color="#4fa94d"
+  ariaLabel="radio-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
+  />
         </div>
-    
     
     
     ):( 

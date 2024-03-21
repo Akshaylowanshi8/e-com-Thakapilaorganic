@@ -34,9 +34,9 @@ switch(pmethod)
 <p className="fflex">
 
 <div className="col">
-
   <h3 className="title">Billing Address</h3>
   <div className="flex">
+  
   <div className="inputBox">
     <label htmlFor="name">Full Name:</label>
     <input
@@ -79,7 +79,7 @@ switch(pmethod)
 <div className="ffl">
 <div className="payment-form">
   <h2>Select Payment Method</h2>
-  <form >
+ 
     <label>
       <input type="radio" name="payment_method" value="cod" onChange={mypay} />
       Cash on Delivery (COD)
@@ -96,7 +96,7 @@ switch(pmethod)
       <input type="radio" name="payment_method" value="netbanking" onClick={mypay} />
       Netbanking
     </label>
-    </form>
+  
 
 </div> 
 

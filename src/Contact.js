@@ -1,21 +1,30 @@
 
 const Contact=()=>{
 
+
+  function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x ==="") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+
     return(
         <>
        <div data-aos="fade-right"  className="container1">
   <div className="cts">Contact us</div>
-  <form >
+  <form name="myform"  onsubmit="return validateForm()" >
     <div className="form-row">
       <div className="input-data">
-        <input type="text" required="" />
+        <input type="text" required=""  name="fname"/>
         <div className="underline" />
         <label htmlFor="">First Name</label>
       </div>
       <div className="input-data">
         <input type="text" required="" />
         <div className="underline" />
-        <label htmlFor="">Last Name</label>
+        <label >Last Name</label>
       </div>
     </div>
     <div className="form-row">

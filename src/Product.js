@@ -3,8 +3,6 @@ import { Link, Outlet } from 'react-router-dom';
 const Product=()=>{
   
     return(<>
-
-
     <div  className="prohead">
     <div className="abcon">
  <h1 data-aos="fade-right" className="">Products</h1>

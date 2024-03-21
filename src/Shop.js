@@ -5,6 +5,17 @@ import { CiCirclePlus } from "react-icons/ci";
 import { proQtyInc, proQtyDec } from "./ProductSlice";
 import { Link,  } from 'react-router-dom';
 const Shop = () => {
+
+const onclc=()=>{
+if(netAmount===0)
+{ window.location.reload();
+  alert("please buy sum products")
+
+  
+
+}
+
+}
  let netAmount=0;
 const show=useSelector((key)=>key.mycart.cart);
 const dish=useDispatch();
@@ -64,7 +75,7 @@ return (
          </div> 
       
 
-        <div  className="buy"><Link to="/buyknow">Buy Know</Link></div>
+        <div  className="buy"><Link to="/buyknow" onClick={()=>onclc()}>Buy Know</Link></div>
       
     </>
   )
